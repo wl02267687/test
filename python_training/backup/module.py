@@ -16,4 +16,8 @@ sys.path.append("modules") # 在模組的搜尋路徑列表中【新增路徑】
 print(sys.path) # 列出模組的搜尋路徑
 print("---------------")
 import geometry
-print(geometry.distance(1,1,5,5))
+print(geometry.slope(1,1,5,5))
+
+# import geometry.point as point
+# result=point.distance(3,4)
+# print(result)
